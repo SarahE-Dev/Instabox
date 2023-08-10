@@ -1,0 +1,17 @@
+.gallery { display: flex;
+flex-direction: row;}
+
+.logo { display: flex;
+flex-direction: row;}
+
+.header { display: flex;}
+
+.followline { display: flex;}
+
+.checkline { display: flex;}
+
+#logo { width: 150px;
+height: auto;}
+
+.main { width: 50vw;
+height: 50vh;}
