@@ -1,10 +1,13 @@
 .gallery { display: flex;
-flex-direction: row;}
+flex-direction: row;
+align-items: center;
+}
 
 
 
 
 .header { display: flex;
+    padding-bottom: 40px;
 }
 
 .followline { display: flex;
@@ -15,22 +18,29 @@ justify-content: space-between;}
     width: 80%;
 }
 
-#insta { font-size: 25px;
+#insta { font-size: 30px;
+    padding: 10px;
 }
 .check { display: flex;
 flex-direction: row;
 align-items: center;}
 
 #dots { margin-left: 30px;
+    margin-top: 40px;
 font-size: 20px;}
 
 #Following {margin-left: 20px;
+    margin-top: 40px;
 border: solid lightgray 1px;
-padding: 10px;
-padding-bottom: 4px;}
+display: flex;
+align-items: center;
+padding: 5px;
+margin-bottom: 40px;
+}
 
 #logo { width: 150px;
-height: auto;}
+height: auto;
+padding: 90px;}
 #foller, #posts, #folling { margin-left: 5px;}
 
 * { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,7 +49,9 @@ font-size: large;}
 .imgs { display: flex;
 flex-direction: column;
 justify-content: center;
-text-align: center;}
+text-align: center;
+}
 .fols { display: flex;
 justify-content: space-evenly;}
 .bold { font-weight: bold;}
+#img7 { width: 147px;}
