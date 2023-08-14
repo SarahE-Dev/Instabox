@@ -1,17 +1,45 @@
 .gallery { display: flex;
 flex-direction: row;}
 
-.logo { display: flex;
-flex-direction: row;}
 
-.header { display: flex;}
 
-.followline { display: flex;}
 
-.checkline { display: flex;}
+.header { display: flex;
+}
+
+.followline { display: flex;
+justify-content: space-between;}
+
+.checkline { display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+#insta { font-size: 25px;
+}
+.check { display: flex;
+flex-direction: row;
+align-items: center;}
+
+#dots { margin-left: 30px;
+font-size: 20px;}
+
+#Following {margin-left: 20px;
+border: solid lightgray 1px;
+padding: 10px;
+padding-bottom: 4px;}
 
 #logo { width: 150px;
 height: auto;}
+#foller, #posts, #folling { margin-left: 5px;}
 
-.main { width: 50vw;
-height: 50vh;}
+* { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: lighter;
+font-size: large;}
+.imgs { display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;}
+.fols { display: flex;
+justify-content: space-evenly;}
+.bold { font-weight: bold;}
